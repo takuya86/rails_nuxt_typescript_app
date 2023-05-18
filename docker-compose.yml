@@ -46,7 +46,7 @@ services:
     volumes:
       - ./front:/app
     ports:
-      - 3000:3000
+      - 3030:3000
     command: "npm run dev"
     networks:
       app_net:
